@@ -1,23 +1,19 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+@section("contenu")
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
-        </div>
+<div class="row">
+    <div class="col-12 p-4">
+       <div class="jumbotron">
+        <h1 class="display-3">Bienvenu, <strong>{{ userFullName() }}</strong></h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling</p>
+        <hr class=my-4>
+        <p>It uses utility for typography and spacing to space content out within the larg</p>
+        <p class="lead">
+        <a class="bbn btn-primary  btn-lg" type="button" href="#">Learn more</a>
+        </p>
+       </div>
     </div>
 </div>
 @endsection
+
