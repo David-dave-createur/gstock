@@ -5,15 +5,15 @@
         <div class="text-center">
         <img class="profile-user-img img-fluid img-circle" src="{{asset("assets/img/user.png")}}" alt="User profile picture">
         </div>
-        <h3 class="profile-username text-center ellipsis">{{ userFullName() }}</h3>
+        <h3 class="profile-username text-center ellipsis">david</h3>
         <ul class="list-group bg-dark  mb-3">
 
           <li class="list-group-item">
-              <a href="{{ route("profil") }}" class=" d-flex align-items-center"><i class="fa fa-lock pr-2"></i><b>Mot de passe</b></a>
+              <a href="" class=" d-flex align-items-center"><i class="fa fa-lock pr-2"></i><b>Mot de passe</b></a>
           </li>
 
           <li class="list-group-item">
-            <a href="{{ route("profil") }}" class=" d-flex align-items-center {{ setMenuActive('profil') }}"><i class="fa fa-user pr-2"></i><b>Mon profil</b></a>
+            <a href="" class=" d-flex align-items-center "><i class="fa fa-user pr-2"></i><b>Mon profil</b></a>
         </li>
 
         </ul>
