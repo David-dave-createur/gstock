@@ -124,8 +124,8 @@
         </li>
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link">
-                <i class="menu-icon tf-icons ti ti-text-wrap-disabled"></i>
-                <div data-i18n="Annonces & notifications">Annonces & notifications</div>
+                <i class="menu-icon tf-icons ti ti-bell"></i>
+                <div data-i18n="Annonces/notifications">Annonces/notifications</div>
             </a>
         </li>
 
@@ -133,11 +133,190 @@
         <li class="menu-header small text-uppercase">
             <span class="menu-header-text">Présence en Ligne</span>
         </li>
+
         <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons ti ti-chart-pie"></i>
                 <div data-i18n="Suivi du Temps">Suivi du Temps</div>
             </a>
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link" target="_blank">
+                        <div data-i18n="Horofateur">Horofateur</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                        <div data-i18n="Historique temp de travail">Historique temp de travail</div>
+                    </a>
+                </li>
+            </ul>
         </li>
+
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons ti ti-user-check"></i>
+                <div data-i18n="Gestion de présence">Gestion de présence</div>
+            </a>
+            <ul class="menu-sub">
+                <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link" target="_blank">
+                        <div data-i18n="Tableau de bord">Tableau de bord</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                        <div data-i18n="Historique de présence">Historique de présence</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                        <div data-i18n="Options de suivi virtuel">Options de suivi virtuel</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link">
+                <i class="menu-icon tf-icons ti ti-user"></i>
+                <div data-i18n="Présence Individuelle">Présence Individuelle</div>
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link">
+                <i class="menu-icon tf-icons ti ti-clipboard"></i>
+                <div data-i18n="Rapports présence">Rapports présence</div>
+            </a>
+        </li>
+
+
+     <!-- Comptabilité -->
+     <li class="menu-header small text-uppercase">
+        <span class="menu-header-text">Comptabilité</span>
+    </li>
+    <li class="menu-item">
+        <a href="javascript:void(0);" class="menu-link menu-toggle">
+            <i class="menu-icon tf-icons ti ti-cards"></i>
+            <div data-i18n="Gestion Financière">Gestion Financière</div>
+        </a>
+        <ul class="menu-sub">
+            <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link" target="_blank">
+                    <div data-i18n="Tableau de bord">Tableau de bord</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Dépenses & revenus">Dépenses & revenus</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Gesttion des budgets">Gesttion des budgets</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li class="menu-item">
+        <a href="javascript:void(0);" class="menu-link menu-toggle">
+            <i class="menu-icon tf-icons ti ti-receipt"></i>
+            <div data-i18n="Facturation/paiements">Facturation/paiements</div>
+        </a>
+        <ul class="menu-sub">
+            <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link" target="_blank">
+                    <div data-i18n="Tableau de bord">Tableau de bord</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Options de paiement">Options de paiement</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Suivi des paiements">Suivi des paiements</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="menu-item">
+        <a href="javascript:void(0);" class="menu-link menu-toggle">
+            <i class="menu-icon tf-icons ti ti-file-text"></i>
+            <div data-i18n="Rapports Financièrs">Rapports Financièrs</div>
+        </a>
+        <ul class="menu-sub">
+            <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link" target="_blank">
+                    <div data-i18n="Bilan financiers">Bilan financiers</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Etats des résultats">Etats des résultats</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Analyses financières">Analyses financières</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+     <!-- Paramètre -->
+     <li class="menu-header small text-uppercase">
+        <span class="menu-header-text">Paramètre</span>
+    </li>
+
+    <li class="menu-item">
+        <a href="javascript:void(0);" class="menu-link menu-toggle">
+            <i class="menu-icon tf-icons ti ti-plus"></i>
+            <div data-i18n="Gestion Utilisateurs">Gestion Utilisateurs</div>
+        </a>
+        <ul class="menu-sub">
+            <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link" target="_blank">
+                    <div data-i18n="Ajout et suppression">Ajout et suppression</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Attribution des rôles">Attribution des rôles</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="menu-item">
+        <a href="javascript:void(0);" class="menu-link menu-toggle">
+            <i class="menu-icon tf-icons ti ti-lock"></i>
+            <div data-i18n="Sécurité">Sécurité</div>
+        </a>
+        <ul class="menu-sub">
+            <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link" target="_blank">
+                    <div data-i18n="Paramètre confidentialité">Paramètre confidentialité</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Journal d'activité">Journal d'activité</div>
+                </a>
+            </li>
+
+            <li class="menu-item">
+                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Historique de connexion">Historique de connexion</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+
+
+
     </ul>
 </aside>
