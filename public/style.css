@@ -7,3 +7,7 @@
     background-color: #7367f0 !important;
     color:#fff !important;
 }
+
+.actionbutton{
+    display: flex !important;
+}
