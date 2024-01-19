@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Str;
 
-define("PAGELIST", "list");
-define("PAGECREATEFORM", "create");
+define("PAGEROLE", "role");
+define("PAGEPERMISSION", "permission");
 define("PAGEEDITFORM", "edit");
 
 

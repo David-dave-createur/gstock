@@ -92,14 +92,14 @@
         </li>
         <!-- Liste des rôles -->
         <li class="menu-item">
-            <a href="#" class="menu-link">
+            <a href="{{ route('admin.roles') }}" class="menu-link {{ setMenuActive('admin.roles') }}">
                 <i class="menu-icon tf-icons ti ti-id"></i>
                 <div data-i18n="Liste des rôles">Liste des rôles</div>
             </a>
         </li>
         <!-- Attribution &amp; modification -->
         <li class="menu-item">
-            <a href="javascript:void(0)" class="menu-link">
+            <a href="{{ route('admin.attribution') }}" class="menu-link  {{ setMenuActive('admin.attribution') }}">
                 <i class="menu-icon tf-icons ti ti-color-swatch"></i>
                 <div data-i18n="Attribution ">Attribution </div>
             </a>
@@ -272,13 +272,13 @@
     </li>
 
     <li class="menu-item">
-        <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <a href="#" class="menu-link menu-toggle {{ setMenuClass('utilisateur.', 'menu-open') }}">
             <i class="menu-icon tf-icons ti ti-plus"></i>
             <div data-i18n="Gestion Utilisateurs">Gestion Utilisateurs</div>
         </a>
         <ul class="menu-sub">
             <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link" target="_blank">
+                <a href="{{ route('utilisateur.ajout_suppression') }}" class="menu-link {{ setMenuActive('utilisateur.ajout_suppression') }}">
                     <div data-i18n="Ajout et suppression">Ajout et suppression</div>
                 </a>
             </li>

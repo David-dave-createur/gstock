@@ -1,5 +1,7 @@
 import './bootstrap';
 
-import 'admin-lte/plugins/jquery/jquery';
-import 'admin-lte/plugins/bootstrap/js/bootstrap.bundle';
-import 'admin-lte/dist/js/adminlte';
+import Swal from 'sweetalert2'
+
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+
+

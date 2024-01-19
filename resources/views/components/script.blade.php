@@ -20,3 +20,4 @@
 
 <!-- Page JS -->
 <script src="{{asset('assets/js/dashboards-analytics.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
